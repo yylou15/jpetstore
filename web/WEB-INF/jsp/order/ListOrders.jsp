@@ -12,6 +12,7 @@
 	<c:forEach var="order" items="${sessionScope.orderList}">
 		<tr>
 			<td>
+				<c:param name="orderId" value="${order.orderId}"/>
 				<%--<c:param name="orderId" value="${order.orderId}"/>--%>
 				<a href="viewOrder">${order.orderId}</a>
 			</td>

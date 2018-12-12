@@ -88,7 +88,11 @@ press continue...
 	</tr>
 
 </table>
+<<<<<<< HEAD
 	<a href="viewOrder?orderId=${sessionScope.order.orderId}" class="Button">Confirm</a>
+=======
+	<a href="#" class="Button">Confirm</a>
+>>>>>>> 1212
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
