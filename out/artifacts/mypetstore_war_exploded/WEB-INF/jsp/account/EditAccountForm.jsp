@@ -23,7 +23,7 @@
 		<input type="submit" name="editAccount" value="Save Account Information"/>
 
 </form>
-	<a href="myOrder?username=${sessionScope.username}">My Orders</a>
+	<a href="myOrder?orderId=${sessionScope.order.orderId}">My Orders</a>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
