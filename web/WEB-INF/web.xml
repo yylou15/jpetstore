@@ -3,6 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <context-param>
+        <param-name>
+            listen
+        </param-name>
+        <param-value>
+            true
+        </param-value>
+    </context-param>
     <servlet>
         <servlet-name>MainServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.MainServlet</servlet-class>
@@ -170,5 +178,14 @@
     <servlet-mapping>
         <servlet-name>ShippingFormServlet</servlet-name>
         <url-pattern>/shippingForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VerifyCodeServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.VerifyCodeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyCodeServlet</servlet-name>
+        <url-pattern>/VerifyCode</url-pattern>
     </servlet-mapping>
 </web-app>

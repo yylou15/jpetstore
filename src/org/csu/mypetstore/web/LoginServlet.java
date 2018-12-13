@@ -11,10 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+import static org.csu.mypetstore.utils.VerifyUtil.checkVerify;
+
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
     private static final String MAIN = "/WEB-INF/jsp/catalog/Main.jsp";
-    private static final String  SIGNON_FORM= "/WEB-INF/jsp/Account/SignonForm.jsp";
+    private static final String  SIGNON_FORM= "/WEB-INF/jsp/account/SignonForm.jsp";
     String username;
     String password;
     AccountService accountService=new AccountService();
@@ -23,15 +25,23 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+
         username=request.getParameter("username");
         password=request.getParameter("password");
-        HttpSession session=request.getSession();
+        String verifyCode = request.getParameter("verifyCode");
         Account account=accountService.getAccount(username,password);
 
-        if(account==null){
+
+        String correctCode = session.getAttribute("verifyCode").toString();
+        if(!checkVerify(verifyCode,correctCode)){
+            session.setAttribute("message","Wrong VerifyCode.Try again.");
+            request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
+        }else if(account==null){
             session.setAttribute("message","Invalid username or password. Signon failed.");
             request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
         }else {
+            session.removeAttribute("message");
             session.setAttribute("username",username);
             session.setAttribute("password",password);
             session.setAttribute("account",account);
@@ -39,4 +49,6 @@ public class LoginServlet extends HttpServlet {
         }
 
     }
+
+
 }

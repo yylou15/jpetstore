@@ -6,300 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf89725-224d-46f7-b32d-e682e8de2d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mypetstore_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/stripes_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypetstore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypetstore.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/META-INF/mypetstore.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/AccountDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/CategoryDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/ItemDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/LineItemDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/OrderDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/ProductDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/SequenceDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/AccountDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/CategoryDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/ItemDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/LineItemDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/OrderDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/ProductDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/dao/impl/SequenceDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/CartItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/LineItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/domain/Sequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/service/CatalogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/AccountBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/AddItemToCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/EditAccountFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/MainServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/MyOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/NewAccountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/NewOrderFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/NewOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/RemoveItemFromCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SaveAccountInfomationServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SearchProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ShippingFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SignonServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SignoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/UpdateCartQuantitiesServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/UsernameIsExistServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ViewCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ViewCategoryServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ViewItemServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ViewOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/ViewProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/EditAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/cart/Checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/order/ListOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/jdbc-2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/lib/stripes-1.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/css/jpetstore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/banner_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/banner_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/banner_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/banner_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/banner_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/bird1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/bird2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/birds_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/cat1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/cat2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/cats_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dog6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/dogs_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/fish_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/lizard1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/logo-topbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/poweredby.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/reptiles_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/separator.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/sm_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/sm_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/sm_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/sm_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/sm_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/snake1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/static/images/splash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/AccountDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/CategoryDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/ItemDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/LineItemDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/OrderDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/ProductDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/SequenceDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/AccountDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/CategoryDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/ItemDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/LineItemDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/OrderDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/ProductDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/impl/SequenceDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/CartItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/LineItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/domain/Sequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/service/CatalogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/AccountBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/AddItemToCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/EditAccountFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/MainServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/MyOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/NewAccountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/NewOrderFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/NewOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/RemoveItemFromCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SaveAccountInfomationServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SearchProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ShippingFormServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SignonServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SignoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/UpdateCartQuantitiesServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/UsernameIsExistServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ViewCartServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ViewCategoryServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ViewItemServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ViewOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/ViewProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/CategoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/ItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/LineItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/SequenceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/AccountDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/CategoryDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/ItemDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/LineItemDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/OrderDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/ProductDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/SequenceDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/service/CatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/AccountBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/AddItemToCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/EditAccountFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/MyOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/NewAccountServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/NewOrderFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/NewOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/RemoveItemFromCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SaveAccountInfomationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SearchProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ShippingFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/UpdateCartQuantitiesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/UsernameIsExistServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewCategoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewItemServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ListOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jdbc-2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/stripes-1.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/jpetstore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/banner_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/banner_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/banner_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/banner_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/banner_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/bird1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/bird2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/birds_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/cat1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/cat2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/cats_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dog6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/dogs_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/fish_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/lizard1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/logo-topbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/poweredby.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/reptiles_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/separator.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/sm_birds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/sm_cats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/sm_dogs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/sm_fish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/sm_reptiles.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/snake1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/images/splash.gif" afterDir="false" />
+    <list default="true" id="daf89725-224d-46f7-b32d-e682e8de2d18" name="Default Changelist" comment="1212">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/utils/VerifyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/VerifyCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SignonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/classes/org/csu/mypetstore/web/SignonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SignonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/web/SignonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -312,41 +36,108 @@
     <session id="775751026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="64" />
-          <entry key="jsp" value="4" />
+          <entry key="class" value="1" />
+          <entry key="css" value="1" />
+          <entry key="gif" value="1" />
+          <entry key="java" value="98" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="13" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="64" />
-          <entry key="JSP" value="4" />
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="98" />
+          <entry key="JSP" value="13" />
+          <entry key="JavaScript" value="1" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="css" value="17" />
+          <entry key="java" value="822" />
+          <entry key="js" value="72" />
+          <entry key="jsp" value="587" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="CSS" value="17" />
+          <entry key="JAVA" value="822" />
+          <entry key="JSP" value="587" />
+          <entry key="JavaScript" value="72" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="63" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mypetstore" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/AccountDAOImpl.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/utils/VerifyUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#generateCodeAndPic#0;class#VerifyUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,10 +146,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/DBUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="499">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/VerifyCodeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -372,6 +178,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -391,6 +198,11 @@
       <find>checkout</find>
       <find>n.com/jsp/jstl/core</find>
       <find>JDBC</find>
+      <find>fish</find>
+      <find>/newAccount</find>
+      <find>session</find>
+      <find>veri</find>
+      <find>generateCodeAndPic</find>
     </findStrings>
     <replaceStrings>
       <replace>../../../static/images/</replace>
@@ -408,12 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewCartServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/RemoveItemFromCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/UpdateCartQuantitiesServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Checkout.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Order.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/LineItem.java" />
@@ -427,7 +233,6 @@
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/SequenceDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/CheckoutServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/AccountBean.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/NewAccountServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" />
@@ -444,21 +249,28 @@
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/UsernameIsExistServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignoutServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/ShoppingFormServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/EditAccountFormServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/MyOrderServlet.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/ShippingFormServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/OrderDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/AccountDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/LineItemDAOImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/dao/DBUtil.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" />
+        <option value="$PROJECT_DIR$/web/static/css/jpetstore.css" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/VerifyCodeServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/js.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/csu/mypetstore/utils/VerifyUtil.java" />
       </list>
     </option>
   </component>
@@ -509,13 +321,55 @@
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypetstore" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypetstore" type="b2602c69:ProjectViewProjectNode" />
@@ -537,8 +391,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544596128991" />
-    <property name="last_opened_file_path" value="C:/xampp/tomcat/lib" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544680325771" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/images/verify" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -554,6 +408,9 @@
       <recent name="D:\idea_project\mypetstore\src\org\csu\mypetstore\web" />
       <recent name="D:\idea_project\mypetstore\web\WEB-INF\jsp\account" />
       <recent name="D:\idea_project\mypetstore\web\WEB-INF\jsp\order" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.csu.mypetstore.web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\projects\JavaWeb\jpetstore\mypetstore1\mypetstore\web\WEB-INF\lib" />
@@ -574,8 +431,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.131" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/mypetstore/" />
+    <configuration name="Tomcat 9.0.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/mypetstore" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mypetstore:war exploded">
@@ -586,6 +444,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_mypetstore_3" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
         <option name="HTTP_PORT" value="8888" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
@@ -726,40 +585,59 @@
       <workItem from="1544284063580" duration="47201000" />
       <workItem from="1544433299658" duration="13864000" />
       <workItem from="1544502849977" duration="9583000" />
-      <workItem from="1544537151456" duration="5058000" />
+      <workItem from="1544537151456" duration="7821000" />
+      <workItem from="1544659149973" duration="7356000" />
+      <workItem from="1544669569075" duration="5281000" />
     </task>
+    <task id="LOCAL-00001" summary="1212">
+      <created>1544596351993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544596351994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109641000" />
+    <option name="totallyTimeSpent" value="125041000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5629032" visible="true" weight="0.19936034" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6125402" visible="true" weight="0.20362474" />
+      <window_info id="Structure" order="1" sideWeight="0.3874598" side_tool="true" weight="0.20362474" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.43709677" side_tool="true" visible="true" weight="0.19936034" />
+      <window_info id="Favorites" order="6" sideWeight="0.3874598" side_tool="true" weight="0.20362474" />
+      <window_info id="Web" order="7" sideWeight="0.3874598" side_tool="true" weight="0.20362474" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31995663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3253796" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -769,41 +647,8 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Web" order="5" sideWeight="0.5021097" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4978903" visible="true" weight="0.25" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -811,140 +656,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1212" />
+    <option name="LAST_COMMIT_MESSAGE" value="1212" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart/Checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/help.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/AccountDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/CategoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/LineItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/CatalogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -954,64 +674,6 @@
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#843#844#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/AccountBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/AddItemToCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/EditAccountFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/MyOrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/NewAccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/NewOrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1050,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1112,23 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1139,34 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/CategoryDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#719#729#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,6 +816,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/ProductDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/images/banner_dogs.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/jpetstore.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7000">
+          <caret line="280" column="20" selection-start-line="280" selection-start-column="20" selection-end-line="280" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/ViewProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mypetstore/org/csu/mypetstore/dao/SequenceDAO.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/ProductDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1214,30 +878,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/ProductDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/impl/AccountDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/AddItemToCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/dao/DBUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/MyOrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/NewAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/NewOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/AccountBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/EditAccountForm.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/EditAccountFormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/images/verify/1544661591554.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="184" column="55" lean-forward="true" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/VerifyCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/SignonServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/utils/VerifyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateCodeAndPic#0;class#VerifyUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
