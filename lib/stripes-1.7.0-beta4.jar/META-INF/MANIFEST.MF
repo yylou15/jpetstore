@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: vankeisb
+Build-Jdk: 1.7.0_80
+Specification-Title: Stripes
+Specification-Version: 1.7.0-beta4
+Specification-Vendor: Stripes Framework
+Implementation-Title: Stripes
+Implementation-Version: 1.7.0-beta4
+Implementation-Vendor-Id: net.sourceforge.stripes
+Implementation-Vendor: Stripes Framework
+
