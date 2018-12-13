@@ -21,7 +21,7 @@ public class MyOrderServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session=request.getSession();
         order=(Order)session.getAttribute("order");
-
+        session.setAttribute("order",order);
         request.getRequestDispatcher(MY_ORDER).forward(request,response);
     }
 }
