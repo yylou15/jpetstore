@@ -14,10 +14,12 @@
 <head>
     <link rel="StyleSheet" href="static/css/jpetstore.css" type="text/css"
           media="screen" />
-
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="static/js/js.js"></script>
     <meta name="generator"
           content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
     <title>JPetStore Demo</title>
+    <meta charset="UTF-8">
     <meta content="text/html; charset=windows-1252"
           http-equiv="Content-Type" />
     <meta http-equiv="Cache-Control" content="max-age=0" />
