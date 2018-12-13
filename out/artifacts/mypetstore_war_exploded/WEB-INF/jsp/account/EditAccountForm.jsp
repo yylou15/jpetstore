@@ -1,14 +1,14 @@
 <%@ include file="../common/IncludeTop.jsp"%>
 
 <div id="Catalog">
-	<form action="saveAccountInfomation?username=${sessionScope.username}" method="post">
+	<form action="#" method="post">
 
 	<h3>User Information</h3>
 
 	<table>
 		<tr>
 			<td>User ID:</td>
-			<td>${sessionScope.username}</td>
+			<td>${actionBean.username}</td>
 		</tr>
 		<tr>
 			<td>New password:</td>
@@ -23,7 +23,8 @@
 		<input type="submit" name="editAccount" value="Save Account Information"/>
 
 </form>
-	<a href="myOrder?orderId=${sessionScope.order.orderId}">My Orders</a>
+	<a href="myOrder">My Orders</a>
+	<a href="myRecords">My Records</a>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
