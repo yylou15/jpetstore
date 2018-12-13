@@ -31,13 +31,14 @@ public class LoginServlet extends HttpServlet {
         password=request.getParameter("password");
         String verifyCode = request.getParameter("verifyCode");
         Account account=accountService.getAccount(username,password);
-
+//        System.out.println(account.getUsername());
+//        System.out.println(account.getUsername()==null);
 
         String correctCode = session.getAttribute("verifyCode").toString();
         if(!checkVerify(verifyCode,correctCode)){
             session.setAttribute("message","Wrong VerifyCode.Try again.");
             request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
-        }else if(account==null){
+        }else if(account.getUsername()==null){
             session.setAttribute("message","Invalid username or password. Signon failed.");
             request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
         }else {

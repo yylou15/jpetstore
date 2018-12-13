@@ -24,6 +24,7 @@
 
 </form>
 	<a href="myOrder">My Orders</a>
+	<a href="myRecords">My Records</a>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

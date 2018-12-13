@@ -33,7 +33,7 @@
 				<input type="text" name="verifyCode" id="verify" class="form-control">
 			</div>
 			<div class="col-4">
-				<img src="VerifyCode"  alt="看不清？换一张" title="看不清？换一张" width="100%" height="38px" onclick="changeVerify(this)">
+				<img src="VerifyCode"  alt="Verify Code" title="Not clear?Click to change!" width="100%" height="38px" onclick="changeVerify(this)">
 			</div>
 		</div>
 		<br>

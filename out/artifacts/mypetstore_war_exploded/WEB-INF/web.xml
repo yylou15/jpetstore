@@ -11,6 +11,10 @@
             true
         </param-value>
     </context-param>
+
+
+
+
     <servlet>
         <servlet-name>MainServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.MainServlet</servlet-class>
@@ -187,5 +191,13 @@
     <servlet-mapping>
         <servlet-name>VerifyCodeServlet</servlet-name>
         <url-pattern>/VerifyCode</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MyRecords</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.MyRecordsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyRecords</servlet-name>
+        <url-pattern>/myRecords</url-pattern>
     </servlet-mapping>
 </web-app>
