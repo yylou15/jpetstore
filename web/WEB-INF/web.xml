@@ -179,4 +179,12 @@
         <servlet-name>CreateNewAccountServlet</servlet-name>
         <url-pattern>/createNewAccount</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ViewMyOrderServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.ViewMyOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewMyOrderServlet</servlet-name>
+        <url-pattern>/viewMyOrder</url-pattern>
+    </servlet-mapping>
 </web-app>

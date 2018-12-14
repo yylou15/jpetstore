@@ -10,14 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
-@WebServlet(name = "ViewOrderServlet")
-public class ViewOrderServlet extends HttpServlet {
+@WebServlet(name = "ViewMyOrderServlet")
+public class ViewMyOrderServlet extends HttpServlet {
     private static final String  ViewOrder = "/WEB-INF/jsp/order/ViewOrder.jsp";
     Order order=new Order();
     OrderService orderService=new OrderService();
@@ -27,9 +22,9 @@ public class ViewOrderServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        orderId=request.getParameter("orderId");
         HttpSession session=request.getSession();
-        order=(Order)session.getAttribute("order");
-        orderService.insertOrder(order);
+        order=orderService.getOrder(Integer.parseInt(orderId));
         session.setAttribute("order",order);
         request.getRequestDispatcher(ViewOrder).forward(request,response);
     }
