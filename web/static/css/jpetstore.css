@@ -65,7 +65,7 @@ table {
   empty-cells: show;
 }
 
-td, th {
+#Catalog td, th {
   empty-cells: show;
   padding: .3ex .3ex;
   vertical-align: top;
@@ -322,3 +322,10 @@ body>#Banner {
   text-align:left;
 }
 
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+.log-table{
+  width: 100%;
+}

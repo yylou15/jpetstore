@@ -5,20 +5,20 @@
   Time: 19:34
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
-    <link rel="StyleSheet" href="static/css/jpetstore.css" type="text/css"
-          media="screen" />
+    <title>JPetStore Demo</title>
+    <link rel="StyleSheet" href="static/css/jpetstore.css" type="text/css" media="screen" />
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <script src="static/js/js.js"></script>
+    <meta charset="UTF-8">
     <meta name="generator"
           content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
-    <title>JPetStore Demo</title>
     <meta content="text/html; charset=windows-1252"
           http-equiv="Content-Type" />
     <meta http-equiv="Cache-Control" content="max-age=0" />
