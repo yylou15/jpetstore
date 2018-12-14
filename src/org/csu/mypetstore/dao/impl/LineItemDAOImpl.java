@@ -3,7 +3,7 @@ package org.csu.mypetstore.dao.impl;
 import org.csu.mypetstore.dao.DBUtil;
 import org.csu.mypetstore.dao.LineItemDAO;
 import org.csu.mypetstore.domain.LineItem;
-import sun.security.pkcs11.Secmod;
+//import sun.security.pkcs11.Secmod;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

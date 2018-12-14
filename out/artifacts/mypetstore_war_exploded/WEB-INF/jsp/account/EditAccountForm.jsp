@@ -1,7 +1,7 @@
 <%@ include file="../common/IncludeTop.jsp"%>
 
 <div id="Catalog">
-	<form action="#" method="post">
+	<form action="saveAccountInfomation?username=${sessionScope.username}" method="post">
 
 	<h3>User Information</h3>
 
@@ -23,7 +23,7 @@
 		<input type="submit" name="editAccount" value="Save Account Information"/>
 
 </form>
-	<a href="myOrder">My Orders</a>
+	<a href="myOrder?userId=${sessionScope.username}">My Orders</a>
 	<a href="myRecords">My Records</a>
 </div>
 

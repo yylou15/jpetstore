@@ -10,24 +10,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.List;
 
-@WebServlet(name = "MyOrderServlet")
-public class MyOrderServlet extends HttpServlet {
-    private static String MY_ORDER ="/WEB-INF/jsp/order/ListOrders.jsp";
-    private String userId;
+@WebServlet(name = "ViewMyOrderServlet")
+public class ViewMyOrderServlet extends HttpServlet {
+    private static final String  ViewOrder = "/WEB-INF/jsp/order/ViewOrder.jsp";
+    Order order=new Order();
+    OrderService orderService=new OrderService();
+    private String orderId;
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        orderId=request.getParameter("orderId");
         HttpSession session=request.getSession();
-        OrderService orderService=new OrderService();
-        userId=request.getParameter("userId");
-        System.out.println(userId);
-        List<Order> orderList=orderService.getOrdersByUsername(userId);
-
-        session.setAttribute("orderList",orderList);
-        request.getRequestDispatcher(MY_ORDER).forward(request,response);
+        order=orderService.getOrder(Integer.parseInt(orderId));
+        session.setAttribute("order",order);
+        request.getRequestDispatcher(ViewOrder).forward(request,response);
     }
 }

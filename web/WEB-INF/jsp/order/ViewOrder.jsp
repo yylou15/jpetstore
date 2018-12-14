@@ -9,8 +9,7 @@
 <table>
 	<tr>
 		<th align="center" colspan="2">Order #${sessionScope.order.orderId}
-		<fmt:formatDate value="${sessionScope.order.orderDate}"
-			pattern="yyyy/MM/dd hh:mm:ss" /></th>
+		<fmt:formatDate value="${sessionScope.order.orderDate}" pattern="yyyy/MM/dd hh:mm:ss" /></th>
 	</tr>
 	<tr>
 		<th colspan="2">Payment Details</th>
@@ -118,8 +117,8 @@
 			<c:forEach var="lineItem" items="${sessionScope.order.lineItems}">
 				<tr>
 					<td>
-						<a href="viewItem">
-								<c:param name="itemId" value="${lineItem.item.itemId}"/>
+						<a href="viewItem?itemId=${lineItem.item.itemId}">
+								<%--<c:param name="itemId" value="${lineItem.item.itemId}"/>--%>
 								${lineItem.item.itemId}
 						</a>
 					</td>

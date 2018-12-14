@@ -12,7 +12,14 @@
         </param-value>
     </context-param>
 
-
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>org.csu.mypetstore.filters.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/main</url-pattern>
+    </filter-mapping>
 
 
     <servlet>
@@ -199,5 +206,13 @@
     <servlet-mapping>
         <servlet-name>MyRecords</servlet-name>
         <url-pattern>/myRecords</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ViewMyOrderServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.ViewMyOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewMyOrderServlet</servlet-name>
+        <url-pattern>/viewMyOrder</url-pattern>
     </servlet-mapping>
 </web-app>

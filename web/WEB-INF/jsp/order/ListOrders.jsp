@@ -12,14 +12,11 @@
 	<c:forEach var="order" items="${sessionScope.orderList}">
 		<tr>
 			<td>
-				<c:param name="orderId" value="${order.orderId}"/>
 				<%--<c:param name="orderId" value="${order.orderId}"/>--%>
-				<a href="viewOrder">${order.orderId}</a>
+				<a href="viewMyOrder?orderId=${order.orderId}">${order.orderId}</a>
 			</td>
-			<td><fmt:formatDate value="${order.orderDate}"
-				pattern="yyyy/MM/dd hh:mm:ss" /></td>
-			<td><fmt:formatNumber value="${order.totalPrice}"
-				pattern="$#,##0.00" /></td>
+			<td><fmt:formatDate value="${order.orderDate}" pattern="yyyy/MM/dd hh:mm:ss" /></td>
+			<td><fmt:formatNumber value="${order.totalPrice}" pattern="$#,##0.00" /></td>
 		</tr>
 	</c:forEach>
 </table>

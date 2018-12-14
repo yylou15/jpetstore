@@ -44,6 +44,7 @@
 
         <input type="submit" name="newOrder" value="Continue" />
 
-</form></div>
+</form>
+</div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
