@@ -13,12 +13,30 @@
     </context-param>
 
     <filter>
-        <filter-name>LoginFilter</filter-name>
-        <filter-class>org.csu.mypetstore.filters.LoginFilter</filter-class>
+        <filter-name>AddItemToCartFilter</filter-name>
+        <filter-class>org.csu.mypetstore.filters.AddItemToCartFilter</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>LoginFilter</filter-name>
-        <url-pattern>/main</url-pattern>
+        <filter-name>AddItemToCartFilter</filter-name>
+        <url-pattern>/addItemToCart</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>ViewItemFilter</filter-name>
+        <filter-class>org.csu.mypetstore.filters.ViewItemFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ViewItemFilter</filter-name>
+        <url-pattern>/viewItem</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>ViewOrderFilter</filter-name>
+        <filter-class>org.csu.mypetstore.filters.ViewOrderFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ViewOrderFilter</filter-name>
+        <url-pattern>/viewOrder</url-pattern>
     </filter-mapping>
 
 
@@ -125,6 +143,14 @@
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginAjaxServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.LoginAjaxServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginAjaxServlet</servlet-name>
+        <url-pattern>/LoginAjax</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>NewAccountServlet</servlet-name>

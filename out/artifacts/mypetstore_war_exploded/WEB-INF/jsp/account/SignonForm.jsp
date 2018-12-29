@@ -1,7 +1,7 @@
 <%@ include file="../common/IncludeTop.jsp"%>
 <div id="Catalog">
-	<form action="login" method="post" name="signon" role="form" style="width: 400px;margin: 0 auto">
-		<span style="color: red;font-weight: bold">${sessionScope.message}</span>
+	<div role="form" style="width: 400px;margin: 0 auto">
+		<span id="SignInInfo" style="color: red;font-weight: bold"></span>
 		<div class="row">
 			<div class="col-12">
 				<p>Please enter your username and password.</p>
@@ -21,7 +21,7 @@
 				<label for="password">password:</label>
 			</div>
 			<div class="col-8">
-				<input type="text" name="password" id="password" class="form-control">
+				<input type="password" name="password" id="password" class="form-control">
 			</div>
 		</div>
 		<br>
@@ -39,10 +39,10 @@
 		<br>
 		<div class="row">
 			<div class="col-12">
-				<input type="submit" name="login" value="Login">
+				<button id="submitForm" class="button btn-primary">Sign In</button>
 			</div>
 		</div>
-	</form>
+	</div>
 	Need a user name and password? <a href="newAccount">Register Now!</a>
 </div>
 

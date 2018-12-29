@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface LogDAO {
     List<Log> getLogs();
-    List<Log> insertLog();
+    void insertLog(Log log);
 }

@@ -25,14 +25,6 @@
 					<img src="VerifyCode" alt="Not clear?Click to change!" onclick="changeVerify(this)">
 				</td>
 			</tr>
-
-			<tr>
-				<td>Enter VerifyCode:</td>
-				<td>
-					<input type ="text" name="verifyCode" />
-					<img src="VerifyCode" alt="Not clear?Click to change!" onclick="changeVerify(this)">
-				</td>
-			</tr>
 		</table>
 
 		<%@ include file="IncludeAccountFields.jsp"%>

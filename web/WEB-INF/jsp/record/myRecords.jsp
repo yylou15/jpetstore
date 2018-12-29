@@ -16,37 +16,22 @@
             <tr>
                 <th>User Name</th>
                 <th>Action</th>
-                <th>Time</th>
                 <th>Details</th>
+                <th>Create Time</th>
             </tr>
         </thead>
         <tbody>
+        <c:forEach var="logItem" items="${sessionScope.logList}">
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>${logItem.userId}</td>
+                <td>${logItem.action}</td>
+                <td>${logItem.details}</td>
+                <td>${logItem.createTime}</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+        </c:forEach>
         </tbody>
     </table>
+    <br><br><br>
 </div>
 
 

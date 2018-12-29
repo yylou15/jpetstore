@@ -9,6 +9,27 @@ public class Log implements Serializable {
     private String details;
     private String action;
 
+    public void setLid(int lid) {
+        this.lid = lid;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public void setAction(String action) {
+        this.action = action;
+    }
+
+
     public int getLid() {
         return lid;
     }

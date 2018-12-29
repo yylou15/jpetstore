@@ -1,7 +1,9 @@
 package org.csu.mypetstore.web;
 
 import org.csu.mypetstore.domain.Account;
+import org.csu.mypetstore.domain.Log;
 import org.csu.mypetstore.service.AccountService;
+import org.csu.mypetstore.service.LogService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 import static org.csu.mypetstore.utils.VerifyUtil.checkVerify;
 
@@ -38,15 +42,24 @@ public class LoginServlet extends HttpServlet {
         if(!checkVerify(verifyCode,correctCode)){
             session.setAttribute("message","Wrong VerifyCode.Try again.");
             request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
-        }else if(account.getUsername()==null){
+        }else if(account==null){
             session.setAttribute("message","Invalid username or password. Signon failed.");
             request.getRequestDispatcher(SIGNON_FORM).forward(request,response);
         }else {
+
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+            Log loginLog = new Log();
+            LogService logService = new LogService();
+            logService.insertLog(username,"Log In", username + " log in!",df.format(new Date()));
+
+
             session.removeAttribute("message");
             session.setAttribute("username",username);
             session.setAttribute("password",password);
             session.setAttribute("account",account);
             request.getRequestDispatcher(MAIN).forward(request,response);
+
+
         }
 
     }

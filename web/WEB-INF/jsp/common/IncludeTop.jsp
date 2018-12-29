@@ -14,6 +14,7 @@
 <head>
 
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="static/js/js.js"></script>
     <link rel="StyleSheet" href="static/css/jpetstore.css" type="text/css"
           media="screen" />
