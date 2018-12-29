@@ -24,6 +24,19 @@ $(document).ready(function () {
         let password = $('#password').val();
         let code = $('#verify').val();
 
+        if(!code){
+            $('#SignInInfo').text("Please enter verify code");
+            return;
+        }
+        if(!username){
+            $('#SignInInfo').text("Please enter username!");
+            return;
+        }
+        if(!password){
+            $('#SignInInfo').text("Please enter password!");
+            return;
+        }
+
         $.ajax({
             url:'LoginAjax',
             //访问的是LoginAjaxServlet
@@ -39,7 +52,7 @@ $(document).ready(function () {
                 if(res.status === false){
                     $('#SignInInfo').text(res.msg);
                 }else{
-                    //res.data=='true'
+                    //res.data==true
                     window.location="main";
                 }
             }
