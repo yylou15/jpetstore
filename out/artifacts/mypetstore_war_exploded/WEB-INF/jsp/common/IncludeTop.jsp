@@ -66,7 +66,7 @@
                     <input id="searchInput" type="text" name="keyword" size="14"  style="line-height: normal"/>
                     <div id="searchItem">
                         <ul class="list-group" id="itemList">
-                            <%--<li class="list-group-item"></li>--%>
+                            <li class="list-group-item" ></li>
                         </ul>
                     </div>
                 </div>

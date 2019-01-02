@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf89725-224d-46f7-b32d-e682e8de2d18" name="Default Changelist" comment="几个lib">
-      <change afterPath="$PROJECT_DIR$/lib.zip" afterDir="false" />
+    <list default="true" id="daf89725-224d-46f7-b32d-e682e8de2d18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/js.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,9 +67,9 @@
         <counts>
           <entry key="css" value="188" />
           <entry key="java" value="3512" />
-          <entry key="js" value="1549" />
+          <entry key="js" value="1591" />
           <entry key="jsp" value="1987" />
-          <entry key="txt" value="122" />
+          <entry key="txt" value="141" />
           <entry key="xml" value="267" />
         </counts>
       </usages-collector>
@@ -79,8 +78,8 @@
           <entry key="CSS" value="188" />
           <entry key="JAVA" value="3512" />
           <entry key="JSP" value="1987" />
-          <entry key="JavaScript" value="1549" />
-          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="JavaScript" value="1591" />
+          <entry key="PLAIN_TEXT" value="141" />
           <entry key="XML" value="267" />
         </counts>
       </usages-collector>
@@ -115,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/static/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+            <state relative-caret-position="183">
+              <caret line="95" column="85" selection-start-line="95" selection-start-column="75" selection-end-line="95" selection-end-column="85" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -359,7 +358,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546402422532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546402723546" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -567,7 +566,7 @@
       <workItem from="1545387110014" duration="253000" />
       <workItem from="1545392721423" duration="1433000" />
       <workItem from="1546061879484" duration="5974000" />
-      <workItem from="1546393240194" duration="7804000" />
+      <workItem from="1546393240194" duration="8063000" />
     </task>
     <task id="LOCAL-00001" summary="1212">
       <created>1544596351993</created>
@@ -618,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546402001440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="搜索框AJAX、前端更新">
+      <created>1546402461331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546402461331</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174853000" />
+    <option name="totallyTimeSpent" value="175112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +691,8 @@
     <MESSAGE value="几个lib" />
     <MESSAGE value="搜索框ajax实现、前端更新" />
     <MESSAGE value="搜索框Ajax、前端更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索框Ajax、前端更新" />
+    <MESSAGE value="搜索框AJAX、前端更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索框AJAX、前端更新" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1062,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="183">
+          <caret line="95" column="85" selection-start-line="95" selection-start-column="75" selection-end-line="95" selection-end-column="85" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
