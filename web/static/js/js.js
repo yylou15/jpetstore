@@ -12,12 +12,14 @@
     //     })
     // }
 // };
-$(document).ready(function () {
-    changeVerify = function (obj) {
-        obj.src = "VerifyCode?" + new Date().getTime();
-    };
+    $(document).ready(function () {
+        let oldQuality;
 
-    $("#submitForm").click(function () {
+        changeVerify = function (obj) {
+        obj.src = "VerifyCode?" + new Date().getTime();
+        };
+
+        $("#submitForm").click(function () {
         let username = $('#username').val();
         let password = $('#password').val();
         let code = $('#verify').val();
@@ -57,8 +59,7 @@ $(document).ready(function () {
         })
     });
 
-    $("#searchInput")
-        .on("input propertychange",function (e) {
+        $("#searchInput").on("input propertychange",function (e) {
         let keyword = $(this).val();
         if(keyword){
             $.ajax({
@@ -89,11 +90,44 @@ $(document).ready(function () {
             },100)
     });
 
+        $(".cartNum")
+            .focus(function () {
+            oldQuality = $(this).val();
+        })
+            .change(function (e) {
+
+            let quality=$(this).val();
+            console.log(quality-oldQuality)
+            let name=$(this)[0].name;
+                if(!isNaN(quality)){
+                    let datas = {};
+                    datas[name] = quality;
+
+
+                    let that = this;
+                $.ajax({
+                    url:"updateCartQuantities",
+                    type:"post",
+                    data: datas,
+                    success:function () {
+                        let price = parseFloat($(that).parent().next().text().replace(/^\s*|\s*$/g,"").substring(1));
+                        let oldTotalPrice=parseFloat($(that).parent().next().next().text().replace(/^\s*|\s*$/g,"").substring(1));
+                        let addMoney = price*(quality-oldQuality);
+                        let oldMoney = parseFloat($("#totalMoney").text().replace(/^\s*|\s*$/g,"").substring(1));
+                        console.log(oldMoney)
+                        console.log(addMoney)
+                        $("#totalMoney").text("$" + (oldMoney + addMoney).toString())
+                        $(that).parent().next().next().text("$" + (oldTotalPrice + addMoney).toString())
+
+                    }
+                })
+            }
+        })
 
     setItems = function (a) {
         $("#itemList").html("");
         for(let i in a){
-            $("#itemList").append("<li class=\"list-group-item\" onclick=\"selectItem(this)\" >" + a[i] + "</li>");
+            $("#itemList").append("<li class=\"list-group-item\" onmouseover=\"selectItem(this)\" >" + a[i] + "</li>");
             $("#searchItem").show();
         }
     };

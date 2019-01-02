@@ -39,13 +39,13 @@
 					${cartItem.item.attribute5} ${cartItem.item.product.name}</td>
 					<td>${cartItem.inStock}</td>
 					<td>
-						<input type="text" name="${cartItem.item.itemId}" value="${cartItem.quantity}"/>
+						<input type="text" name="${cartItem.item.itemId}" value="${cartItem.quantity}" class="cartNum"/>
 					</td>
 					<td>
 						<fmt:formatNumber value="${cartItem.item.listPrice}" pattern="$#,##0.00" />
 					</td>
 					<td>
-						<fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" />
+							<fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" />
 					</td>
 					<td>
 						<a class="Button" href="removeItemFromCart?workingItemId=${cartItem.item.itemId}">Remove</a>
@@ -54,7 +54,10 @@
 			</c:forEach>
 			<tr>
 				<td colspan="7">
-					Sub Total: <fmt:formatNumber value="${sessionScope.cart.subTotal}" pattern="$#,##0.00" />
+					Sub Total:
+					<span id="totalMoney">
+					<fmt:formatNumber value="${sessionScope.cart.subTotal}" pattern="$#,##0.00" />
+					</span>
 						<input type="submit" value="Update Cart">
 				</td>
 				<td>&nbsp;</td>

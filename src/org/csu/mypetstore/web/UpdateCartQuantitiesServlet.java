@@ -29,10 +29,13 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
             CartItem cartItem = (CartItem) cartItems.next();
             String itemId = cartItem.getItem().getItemId();
             try {
-                int quantity = Integer.parseInt((String) request.getParameter(itemId));
-                cart.setQuantityByItemId(itemId, quantity);
-                if (quantity < 1) {
-                    cartItems.remove();
+                String s= request.getParameter(itemId);
+                if(s!=null){
+                    int quantity = Integer.parseInt((String) request.getParameter(itemId));
+                    cart.setQuantityByItemId(itemId, quantity);
+                    if (quantity < 1) {
+                        cartItems.remove();
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();

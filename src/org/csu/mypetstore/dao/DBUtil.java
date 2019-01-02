@@ -6,7 +6,7 @@ public class DBUtil {
     private static String driverString ="com.mysql.cj.jdbc.Driver";
     private static String connectString="jdbc:mysql://localhost:3306/mypetstore?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true";
     private static String username="root";
-    private static String password="";
+    private static String password="wanamaker670";
 
     public static Connection getConnection() throws Exception{
         Connection connection=null;

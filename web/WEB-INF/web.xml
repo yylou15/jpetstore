@@ -249,4 +249,12 @@
         <servlet-name>ViewMyOrderServlet</servlet-name>
         <url-pattern>/viewMyOrder</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>CartAjaxServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.CartAjaxServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartAjaxServlet</servlet-name>
+        <url-pattern>/cartAjax</url-pattern>
+    </servlet-mapping>
 </web-app>
