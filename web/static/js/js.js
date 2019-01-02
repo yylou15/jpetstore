@@ -57,23 +57,48 @@ $(document).ready(function () {
         })
     });
 
-    $("#searchInput").on("input propertychange",function (e) {
+    $("#searchInput")
+        .on("input propertychange",function (e) {
         let keyword = $(this).val();
-        $.ajax({
-            url: "searchAjax",
-            type: "get",
-            data: {
-                keyword:keyword
-            },
-            success:function (res) {
-                res = res.substring(1,res.length-1);
-                let resArr = res.split(", ");
-                setItems(resArr)
-            }
-        })
-    })
+        if(keyword){
+            $.ajax({
+                url: "searchAjax",
+                type: "get",
+                data: {
+                    keyword:keyword
+                },
+                success:function (res) {
+                    if(res !== "[]"){
+                        res = res.substring(1,res.length-1);
+                        let resArr = res.split(", ");
+                        setItems(resArr)
+                    }else{
+                        $("#searchItem").hide();
+                    }
+                }
+            })
+        }else{
+            $("#searchItem").hide();
+        }
 
-    function setItems(a) {
-        console.log(a)
+    })
+        .blur(function () {
+            setTimeout(function () {
+                $("#searchItem").hide();
+            },100)
+    });
+
+
+    setItems = function (a) {
+        console.log(a);
+        $("#itemList").html("");
+        for(let i in a){
+            $("#itemList").append("<li class=\"list-group-item\" onclick=\"selectItem(this)\">" + a[i] + "</li>");
+            $("#searchItem").show();
+        }
+    };
+
+    selectItem = function (target) {
+        $("#searchInput").val(target.innerText);
     }
 });

@@ -168,7 +168,7 @@ body>#Menu {
   border-style: solid;
   border-color: #ccc;
   float: left;
-  text-align: center;
+  /*text-align: center;*/
   background-color: #000;
   color: #eaac00;
   line-height: 9ex;
@@ -181,12 +181,16 @@ body>#Search {
   height: 9ex;
 }
 
-#Search input {
+#Search input{
   border-width: .1ex .1ex .1ex .1ex;
   border-style: solid;
   border-color: #aaa;
   background-color: #666;
   color: #eaac00;
+}
+#inputWrapper {
+  display: inline-block;
+  position: relative;
 }
 
 #QuickLinks {
@@ -328,4 +332,22 @@ body>#Banner {
 }
 .log-table{
   width: 100%;
+}
+
+#searchItem {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 20px ;
+  background-color: white;
+}
+
+#itemList {
+  line-height: normal;
+}
+
+.list-group-item:hover{
+  background-color: lightgray;
+  color: black;
 }
