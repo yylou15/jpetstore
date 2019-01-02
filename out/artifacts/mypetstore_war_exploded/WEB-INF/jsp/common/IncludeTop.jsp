@@ -60,7 +60,7 @@
     <div id="Search">
         <div id="SearchContent">
             <form action="searchProduct" method="post">
-                <input type="text" name="keyword" size="14"  style="line-height: normal"/>
+                <input id="searchInput" type="text" name="keyword" size="14"  style="line-height: normal"/>
                 <input type="submit" name="searchProducts" value="Search" style="line-height: normal"/>
             </form>
         </div>

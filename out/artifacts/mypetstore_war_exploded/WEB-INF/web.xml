@@ -81,6 +81,14 @@
         <url-pattern>/searchProduct</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>SearchAjaxServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.SearchAjaxServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAjaxServlet</servlet-name>
+        <url-pattern>/searchAjax</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>AddItemToCartServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.AddItemToCartServlet</servlet-class>
     </servlet>

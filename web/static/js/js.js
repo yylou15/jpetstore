@@ -12,8 +12,6 @@
     //     })
     // }
 // };
-
-
 $(document).ready(function () {
     changeVerify = function (obj) {
         obj.src = "VerifyCode?" + new Date().getTime();
@@ -59,4 +57,23 @@ $(document).ready(function () {
         })
     });
 
+    $("#searchInput").on("input propertychange",function (e) {
+        let keyword = $(this).val();
+        $.ajax({
+            url: "searchAjax",
+            type: "get",
+            data: {
+                keyword:keyword
+            },
+            success:function (res) {
+                res = res.substring(1,res.length-1);
+                let resArr = res.split(", ");
+                setItems(resArr)
+            }
+        })
+    })
+
+    function setItems(a) {
+        console.log(a)
+    }
 });
