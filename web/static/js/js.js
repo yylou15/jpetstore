@@ -83,6 +83,7 @@ $(document).ready(function () {
 
     })
         .blur(function () {
+            //防止失去焦点隐藏 和 点击事件 冲突
             setTimeout(function () {
                 $("#searchItem").hide();
             },100)
@@ -90,7 +91,6 @@ $(document).ready(function () {
 
 
     setItems = function (a) {
-        console.log(a);
         $("#itemList").html("");
         for(let i in a){
             $("#itemList").append("<li class=\"list-group-item\" onclick=\"selectItem(this)\">" + a[i] + "</li>");

@@ -13,6 +13,8 @@
 
 <head>
 
+    <link rel="stylesheet" type="text/css" href="web/static/css/jpetstore.css"/>
+    <link rel="stylesheet" type="text/css" href="web/static/css/jpetstore.css"/>
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="static/js/js.js"></script>
@@ -60,7 +62,14 @@
     <div id="Search">
         <div id="SearchContent">
             <form action="searchProduct" method="post">
-                <input id="searchInput" type="text" name="keyword" size="14"  style="line-height: normal"/>
+                <div id="inputWrapper">
+                    <input id="searchInput" type="text" name="keyword" size="14"  style="line-height: normal"/>
+                    <div id="searchItem">
+                        <ul class="list-group" id="itemList">
+                            <%--<li class="list-group-item"></li>--%>
+                        </ul>
+                    </div>
+                </div>
                 <input type="submit" name="searchProducts" value="Search" style="line-height: normal"/>
             </form>
         </div>
