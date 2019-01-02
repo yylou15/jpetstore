@@ -93,12 +93,16 @@ $(document).ready(function () {
     setItems = function (a) {
         $("#itemList").html("");
         for(let i in a){
-            $("#itemList").append("<li class=\"list-group-item\" onclick=\"selectItem(this)\">" + a[i] + "</li>");
+            $("#itemList").append("<li class=\"list-group-item\" onmouseover=\"selectItem(this)\" onmouseout=\"unselectItem(this)\" >" + a[i] + "</li>");
             $("#searchItem").show();
         }
     };
 
     selectItem = function (target) {
         $("#searchInput").val(target.innerText);
+    };
+
+    unselectItem = function () {
+        $("#searchInput").val("");
     }
 });
